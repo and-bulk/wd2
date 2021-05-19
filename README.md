@@ -1,7 +1,8 @@
 # Init db
 
-## create database called bicycle-shop
-## import bicycle-shop.sql
+## Create database called bicycle-shop
+
+## Import bicycle-shop.sql
 
 ## For admin
 
