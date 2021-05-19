@@ -6,13 +6,13 @@
 
 ## For admin
 
-### login
+> login
 
 ```
 admin
 ```
 
-### password
+> password
 
 ```
 1234
