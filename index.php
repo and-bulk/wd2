@@ -28,7 +28,7 @@
 										<img src="images/products/<?php echo $item['image']; ?>" alt="" class="item__img">
 									</a>
 									<div class="item__price"><?php echo $item['price']; ?> $</div>
-									<a href="product.php?id=<?php echo $item['id']; ?>" class="item__btn">դիտել</a>
+									<a href="product.php?id=<?php echo $item['id']; ?>" class="item__btn">more</a>
 								</div>
 							<?php 
 								endwhile;

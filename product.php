@@ -32,7 +32,7 @@
 						<div class="product__price"><?php echo $item['price']; ?> $</div>
 					</div>
 					<div class="product__right">
-						<h3 class="product__right-title">Նկարագրությունը</h3>
+						<h3 class="product__right-title">Description</h3>
 						<p class="product__right-text">
 							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis possimus tenetur provident inventore.
 							Facilis consequuntur dolorum eaque accusantium est quas ipsum quasi eius, fugiat id et aliquid quia, tempora
@@ -40,25 +40,25 @@
 							Rerum incidunt maxime doloribus aliquid, hic modi qui vero cumque praesentium natus ipsam, deserunt, error
 							ullam excepturi.
 						</p>
-						<div class="product__right-info">Տվյալները</div>
+						<div class="product__right-info">Stats</div>
 						<table class="product__right-table">
 							<tr class="product__right-row">
-								<td class="product__right-item">Արտադրող երկիր</td>
-								<td class="product__right-item">Հայաստան</td>
+								<td class="product__right-item">Country of origin</td>
+								<td class="product__right-item">Armenia</td>
 							</tr>
 							<tr class="product__right-row">
-								<td class="product__right-item">Վիճակը</td>
-								<td class="product__right-item">Օգտագործված</td>
+								<td class="product__right-item">Condition</td>
+								<td class="product__right-item">Used</td>
 							</tr>
 							<tr class="product__right-row">
-								<td class="product__right-item">Արտադրված է</td>
+								<td class="product__right-item">Produced by</td>
 								<td class="product__right-item">2016</td>
 							</tr>
 						</table>
 					</div>
 				</div>
 				<div class="other-products">
-					<h2 class="other-products__title">Այլ ապրանքներ</h2>
+					<h2 class="other-products__title">Other products</h2>
 					<div class="other-products__inner">
 						<?php
 							if ($connect) :
@@ -70,7 +70,7 @@
 											<img src="images/products/<?php echo $item['image']; ?>" alt="" class="item__img">
 										</a>
 										<div class="item__price"><?php echo $item['price']; ?> $</div>
-										<a href="product.php?id=<?php echo $item['id']; ?>" class="item__btn">դիտել</a>
+										<a href="product.php?id=<?php echo $item['id']; ?>" class="item__btn">more</a>
 									</div>
 								<?php
 									endwhile;
