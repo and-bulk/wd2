@@ -1,13 +1,18 @@
 # Init db
 
+## create database called bicycle-shop
+## import bicycle-shop.sql
+
+## For admin
+
+### login
+
 ```
-create database called bicycle-shop
-import bicycle-shop.sql
+admin
 ```
 
-#### For admin
+### password
 
 ```
-login - admin
-password - 1234
+1234
 ```
